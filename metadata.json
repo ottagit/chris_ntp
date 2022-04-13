@@ -1,5 +1,5 @@
 {
-  "name": "chris-ntp",
+  "name": "chris_ntp",
   "version": "0.1.1",
   "author": "Chris Otta",
   "summary": "Example module to manage NTP",

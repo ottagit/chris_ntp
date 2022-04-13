@@ -8,7 +8,7 @@ class chris_ntp {
   file {
     "/etc/ntp.conf":
       ensure  => 'file',
-      source  => 'puppet:///modules/chris-ntp/ntp.conf',
+      source  => 'puppet:///modules/chris_ntp/ntp.conf',
       notify  => Service['ntp'],
       require => Package['ntp'],
   }
